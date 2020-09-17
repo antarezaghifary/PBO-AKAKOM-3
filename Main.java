@@ -2,17 +2,17 @@ class Main {
   public static void main(String[] args) {
     //System.out.println("Hello world!");
 
-    //Buku buku = new Buku();
-    //buku.setBuku("hery",20000,23,"reza",2020);
-    //buku.tampil();
+    /*Buku buku = new Buku();
+    buku.setBuku("hery",20000,23,"reza",2020);
+    buku.tampil();
 
-    //Pegawai pegawai = new Pegawai();
-    //pegawai.setPegawai("Reza","Malang");
-    //pegawai.tampil();
+    Pegawai pegawai = new Pegawai();
+    pegawai.setPegawai("Reza","Malang");
+    pegawai.tampil();*/
 
-    HandPhone handphone = new HandPhone();
+    /*HandPhone handphone = new HandPhone();
     handphone.setHandphone("Reza","085335560130");
-    handphone.tampil();
+    handphone.tampil();*/
 
     //praktik 2
     /*Lingkaran a;
@@ -21,7 +21,7 @@ class Main {
     a.tampil();*/
 
     //praktik 3
-    int i;
+    /*int i;
     Lingkaran[] a;
     a=new Lingkaran[5];
     for(i=0;i<5;i++)
@@ -37,6 +37,11 @@ class Main {
     {
     System.out.println("Lingkaran ke: "+i);
     a[i].tampil();
-    }
+    }*/
+
+    Persegi p;
+    p=new Persegi();
+    p.setPersegiPanjang(10,5);
+    p.tampil();
   }
 }

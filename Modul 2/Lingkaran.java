@@ -18,7 +18,7 @@ public class Lingkaran
  }
  public void tampil()
  {
-   System.out.println("jari jari: "+jari);
- System.out.println("luas: "+luas());
+  System.out.println("jari jari: "+jari);
+  System.out.println("luas: "+luas());
  }
 }
