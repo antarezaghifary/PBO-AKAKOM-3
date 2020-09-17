@@ -18,9 +18,16 @@ public class Persegi
     luas = panjang * lebar;
     return luas;
   }
+
+  public int kelPersegiPanjang(){
+    int kel;
+    kel = 2*(panjang+lebar);
+    return kel;
+  }
   public void tampil(){
     System.out.println("panjang: "+panjang);
     System.out.println("lebar: "+lebar);
-    System.out.println("luas: "+luasPersegiPanjang());
+    System.out.println("Luas: "+luasPersegiPanjang());
+    System.out.println("Keliling: "+kelPersegiPanjang());
   }
 }
