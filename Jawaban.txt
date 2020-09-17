@@ -1,0 +1,19 @@
+Jelaskan perbedaan antara vriabel dan konstanta !
+
+Variabel adalah wadah yang menampung nilai-nilai yang digunakan dalam program Java.
+Setiap variabel harus dideklarasikan menggunakan tipe data. Misalnya, variabel dapat
+dinyatakan menggunakan salah satu dari delapan tipe data primitif: byte, short, int,
+panjang, float, double, char atau boolean. Dan, setiap variabel harus diberi nilai awal
+sebelum bisa digunakan.
+
+contoh:
+int myAge = 21;
+Variabel "myAge" dinyatakan sebagai tipe int data dan diinisialisasi ke nilai 21
+
+
+
+Sebuah konstanta adalah suatu tempat untuk menampung data yang nilainya selalu tetap
+dan tidak pernah berubah. Di java, kata kunci final dapat digunakan dengan tipe data
+primitif dan objek tetap (misalnya, String) untuk membuat konstanta. 
+
+final int DAYS_IN_JANUARY = 31;
