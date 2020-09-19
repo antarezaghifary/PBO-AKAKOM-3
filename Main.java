@@ -43,5 +43,9 @@ class Main {
     p=new Persegi();
     p.setPersegiPanjang(10,5);
     p.tampil();
+
+    Mahasiswa mhs = new Mahasiswa();
+    mhs.setMhs("nama", 195611070, "prodi", "alamat", "nomer_hp");
+    mhs.tampil();
   }
 }
