@@ -69,15 +69,28 @@ table[0] = new String[] { "nomor Plat", "AB 3313 SY", "AB 1234 AT" };
 table[1] = new String[] { "Warna", "Biru", "Merah" };
 table[2] = new String[] { "Manufaktur", "Mitsubishi", "Toyota" };
 table[3] = new String[] { "Kecepatan", "50 km/h", "100 km/h" };
-
+String var ="Instan Variabel";
 System.out.format("%-15s%-15s%-15s\n", "Kelas Mobil", "Objek Mobil A", "Objek Mobil B");
 for (int i = 0; i < table.length; i++) {
     Object[] row = table[i];
-    System.out.format("%-15d%-15s%-15s%-15s\n", null, row[0], row[1], row[2]);
+    System.out.format("%-15d%-15s%-15s%-15s\n", i, row[0], row[1], row[2]);
     } 
 
     System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "");
-    System.out.format("%-20s%-15s%-15s\n", "", "method akselerasi", "");
-    System.out.format("%-20s%-15s%-15s\n", "", "method akselerasi", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method belok", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");
+
+
+    //
+System.out.format("%-30s%-15s%-15s\n", "Kelas Mobil     ", " Objek Mobil A", " Objek Mobil B");
+System.out.format("%-15s%-15s%-15s%-15s\n", "Instan Variabel.", " nomor Plat", "AB 3313 SY", "AB 1234 AT");
+System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", " AB 1234 AT");
+System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", " AB 1234 AT");
+System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", " AB 1234 AT");
+
+System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method belok", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");
+
   }
 }
