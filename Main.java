@@ -39,13 +39,45 @@ class Main {
     a[i].tampil();
     }*/
 
-    Persegi p;
+    /*Persegi p;
     p=new Persegi();
     p.setPersegiPanjang(10,5);
     p.tampil();
 
     Mahasiswa mhs = new Mahasiswa();
     mhs.setMhs("nama", 195611070, "prodi", "alamat", "nomer_hp");
-    mhs.tampil();
+    mhs.tampil();*/
+
+    /*Buku buku = new Buku();
+    buku.setBuku("hery",20000,23,"reza",2020,13,"Bahasa Indonesia");
+    buku.tampil();*/
+
+    // System.out.format("%16s%10d%16s", "string1", 23, "string2");
+
+    // String format = "|%1$-10s|%2$-10s|%3$-20s|\n";
+    // System.out.format(format, "A", "AA", "AAA");
+    // System.out.format(format, "B", "", "BBBBB");
+    // System.out.format(format, "C", "CCCCC", "CCCCCCCC");
+
+    // String ex[] = { "E", "EEEEEEEEEE", "E" };
+
+    // System.out.format(String.format(format, (Object[]) ex)); 
+
+
+Object[][] table = new String[4][];
+table[0] = new String[] { "nomor Plat", "AB 3313 SY", "AB 1234 AT" };
+table[1] = new String[] { "Warna", "Biru", "Merah" };
+table[2] = new String[] { "Manufaktur", "Mitsubishi", "Toyota" };
+table[3] = new String[] { "Kecepatan", "50 km/h", "100 km/h" };
+
+System.out.format("%-15s%-15s%-15s\n", "Kelas Mobil", "Objek Mobil A", "Objek Mobil B");
+for (int i = 0; i < table.length; i++) {
+    Object[] row = table[i];
+    System.out.format("%-15d%-15s%-15s%-15s\n", null, row[0], row[1], row[2]);
+    } 
+
+    System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method akselerasi", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method akselerasi", "");
   }
 }
