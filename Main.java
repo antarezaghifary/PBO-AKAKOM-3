@@ -64,7 +64,7 @@ class Main {
     // System.out.format(String.format(format, (Object[]) ex)); 
 
 
-Object[][] table = new String[4][];
+/*Object[][] table = new String[4][];
 table[0] = new String[] { "nomor Plat", "AB 3313 SY", "AB 1234 AT" };
 table[1] = new String[] { "Warna", "Biru", "Merah" };
 table[2] = new String[] { "Manufaktur", "Mitsubishi", "Toyota" };
@@ -78,7 +78,7 @@ for (int i = 0; i < table.length; i++) {
 
     System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "");
     System.out.format("%-20s%-15s%-15s\n", "", "method belok", "");
-    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");*/
 
 
     //
