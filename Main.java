@@ -10,9 +10,9 @@ class Main {
     pegawai.setPegawai("Reza","Malang");
     pegawai.tampil();*/
 
-    /*HandPhone handphone = new HandPhone();
+    HandPhone handphone = new HandPhone();
     handphone.setHandphone("Reza","085335560130");
-    handphone.tampil();*/
+    handphone.tampil();
 
     //praktik 2
     /*Lingkaran a;
@@ -94,7 +94,7 @@ System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "")
 
 
     //
-    int i;
+    /*int i;
       Lingkaran[] a;
       a=new Lingkaran[5];
       for(i=0;i<5;i++)
@@ -110,6 +110,6 @@ System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "")
       {
       System.out.println("Lingkaran ke: "+i);
       a[i].tampil();
-      }
+      }*/
   }
 }
