@@ -42,10 +42,10 @@ class Main {
     /*Persegi p;
     p=new Persegi();
     p.setPersegiPanjang(10,5);
-    p.tampil();
+    p.tampil();*/
 
-    Mahasiswa mhs = new Mahasiswa();
-    mhs.setMhs("nama", 195611070, "prodi", "alamat", "nomer_hp");
+    /*Mahasiswa mhs = new Mahasiswa();
+    mhs.setMhs("antareza", 195611070, "sistem informasi", "tulungagung", "085335560130");
     mhs.tampil();*/
 
     /*Buku buku = new Buku();
@@ -82,7 +82,7 @@ for (int i = 0; i < table.length; i++) {
 
 
     //
-System.out.format("%-30s%-15s%-15s\n", "Kelas Mobil     ", " Objek Mobil A", " Objek Mobil B");
+/*System.out.format("%-30s%-15s%-15s\n", "Kelas Mobil     ", " Objek Mobil A", " Objek Mobil B");
 System.out.format("%-15s%-15s%-15s%-15s\n", "Instan Variabel.", " nomor Plat", "AB 3313 SY", "AB 1234 AT");
 System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", " AB 1234 AT");
 System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", " AB 1234 AT");
@@ -90,7 +90,26 @@ System.out.format("%-15s%-15s%-15s%-15s\n", "", "  nomor Plat", " AB 3313 SY", "
 
 System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "");
     System.out.format("%-20s%-15s%-15s\n", "", "method belok", "");
-    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");
+    System.out.format("%-20s%-15s%-15s\n", "", "method rem", "");*/
 
+
+    //
+    int i;
+      Lingkaran[] a;
+      a=new Lingkaran[5];
+      for(i=0;i<5;i++)
+      {
+      a[i]=new Lingkaran();
+      }
+      a[0].setJari(00.00);
+      a[1].setJari(10.00);
+      a[2].setJari(20.00);
+      a[3].setJari(30.00);
+      a[4].setJari(40.00);
+      for(i=0;i<5;i++)
+      {
+      System.out.println("Lingkaran ke: "+i);
+      a[i].tampil();
+      }
   }
 }
