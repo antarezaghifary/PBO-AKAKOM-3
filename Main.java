@@ -123,5 +123,15 @@ System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "")
     mhs.setNama("Azkiya");
     mhs.tampil();
 
+    Segitiga segitiga;
+    segitiga=new Segitiga();
+    segitiga.setSegitiga(6,3);
+    segitiga.tampil();
+
+
+    NilaiPangkat nilaiPangkat;
+    nilaiPangkat = new NilaiPangkat();
+    nilaiPangkat.setPangkat(2,3);
+    nilaiPangkat.tampil();
   }
 }
