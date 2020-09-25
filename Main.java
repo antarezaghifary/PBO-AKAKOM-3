@@ -10,9 +10,9 @@ class Main {
     pegawai.setPegawai("Reza","Malang");
     pegawai.tampil();*/
 
-    HandPhone handphone = new HandPhone();
-    handphone.setHandphone("Reza","085335560130");
-    handphone.tampil();
+    // HandPhone handphone = new HandPhone();
+    // handphone.setHandphone("Reza","085335560130");
+    // handphone.tampil();
 
     //praktik 2
     /*Lingkaran a;
@@ -111,5 +111,17 @@ System.out.format("%-20s%-15s%-15s\n", "Instan Metode", "method akselerasi", "")
       System.out.println("Lingkaran ke: "+i);
       a[i].tampil();
       }*/
+
+
+    Calculation2 obj = new Calculation2();
+    obj.sum(10.5, 10.5);
+    obj.sum(20, 20);
+    obj.sum(10,14.5);
+
+    Mahasiswa_mdl3 mhs = new Mahasiswa_mdl3();
+    mhs.setNim("175410001");
+    mhs.setNama("Azkiya");
+    mhs.tampil();
+
   }
 }
